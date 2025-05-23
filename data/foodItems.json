@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Pizza Margherita",
+    "price": 9.99,
+    "description": "Classic pizza with tomato and mozzarella"
+  },
+  {
+    "id": 2,
+    "name": "Burger",
+    "price": 8.5,
+    "description": "Beef burger with lettuce, tomato, and special sauce"
+  },
+  {
+    "id": 3,
+    "name": "Caesar Salad",
+    "price": 7.99,
+    "description": "Fresh salad with Caesar dressing and croutons"
+  },
+  {
+    "id": 4,
+    "name": "Pasta Carbonara",
+    "price": 11.99,
+    "description": "Creamy pasta with bacon and Parmesan"
+  },
+  {
+    "id": 5,
+    "name": "Fish and Chips",
+    "price": 10.5,
+    "description": "Fried fish with crispy chips"
+  }
+]
