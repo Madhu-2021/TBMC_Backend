@@ -17,7 +17,7 @@ export default function Order() {
   useEffect(() => {
     const fetchFoodItems = async () => {
       try {
-        const response = await axios.get('http://localhost:3001/api/food');
+        const response = await axios.get('https://tbmc-backend.onrender.com/api/food');
         setFoodItems(response.data);
         setLoading(false);
       } catch (error) {
