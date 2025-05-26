@@ -31,7 +31,7 @@ export default function Chat() {
 
     try {
       // Send message to backend
-      const response = await axios.post('http://localhost:3001/api/chat', { message: userMessage });
+      const response = await axios.post('https://tbmc-backend.onrender.com/api/chat', { message: userMessage });
       
       // Add bot response to chat
       setMessages(prev => [...prev, { type: 'bot', text: response.data.response }]);
